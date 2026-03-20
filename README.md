@@ -39,3 +39,7 @@ Your site URL should become:
 - Integrated full MediaTek time series R script
 - Updated time series project page with visualization section and code block
 - Ready to display `log_return.png`, `acf_pacf_combined.png`, and `residual.png` after you export them from R
+
+
+## v11 update
+- Fixed GitHub and project-file links so all project buttons point to existing content in the main repository.
