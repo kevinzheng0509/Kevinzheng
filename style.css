@@ -77,3 +77,15 @@ p{margin:0 0 16px}
   .hero{padding-top:56px}
   .footer-row{flex-direction:column}
 }
+
+.highlight-section{padding-top:28px}
+.highlight-card{display:grid;grid-template-columns:1.2fr auto;gap:24px;align-items:center;background:linear-gradient(135deg,#ffffff 0%,#f1f6fb 100%);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);padding:28px}
+.compact{max-width:680px}
+.bullet-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.bullet-row span{padding:8px 12px;border-radius:999px;background:var(--primary-soft);color:var(--primary);font-weight:600;font-size:.9rem}
+.featured-outline{border-color:#c8d8ea}
+.card{transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(17,24,39,.12);border-color:#bfd1e3}
+.formula-box{background:linear-gradient(180deg,#ffffff 0%,#f7fbff 100%)}
+.formula{font-size:1.45rem;font-weight:800;letter-spacing:-.02em;color:var(--primary);margin-bottom:8px}
+@media (max-width:900px){.highlight-card{grid-template-columns:1fr}}

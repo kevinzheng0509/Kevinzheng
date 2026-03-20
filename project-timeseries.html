@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MediaTek Time Series Project | Kevin Zheng</title>
+  <title>Time Series Project | Kevin Zheng</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,9 +15,9 @@
     <section class="page-hero">
       <div class="container narrow">
         <p class="breadcrumb"><a class="inline-link" href="index.html">Home</a> / Project</p>
-        <p class="eyebrow">Time Series Project</p>
+        <p class="eyebrow">Time Series Analysis</p>
         <h1>MediaTek Stock Time Series Analysis</h1>
-        <p class="lead">A final report focused on forecasting and model diagnostics using MediaTek stock data and a workflow built around ARIMA-style time series analysis.</p>
+        <p class="lead">A financial time series project that applies standard diagnostic and forecasting tools to MediaTek stock data, with emphasis on stationarity, model adequacy, and interpretability.</p>
       </div>
     </section>
 
@@ -25,22 +25,31 @@
       <div class="container project-layout">
         <div>
           <div class="project-panel project-section">
-            <h2>Overview</h2>
-            <p>This project analyzes daily stock price data for MediaTek (2454) with the goal of understanding stationarity, selecting a suitable model, and evaluating forecast performance on a held-out period.</p>
+            <h2>Problem Motivation</h2>
+            <p>This project examines how time series methods can be used to model and evaluate the dynamics of a real stock series. The goal is not only to fit a model, but also to understand whether the transformed series is suitable for inference and short-horizon forecasting.</p>
           </div>
           <div class="project-panel project-section">
-            <h2>Methods</h2>
+            <h2>Methodology</h2>
             <ul class="list-tight">
-              <li>Log return transformation</li>
-              <li>ADF unit root testing</li>
-              <li>ARIMA model selection and comparison</li>
-              <li>Residual diagnostics and adequacy checks</li>
-              <li>Out-of-sample forecast evaluation</li>
+              <li>Log-return transformation to stabilize the series</li>
+              <li>ADF testing for stationarity assessment</li>
+              <li>ARIMA(p,d,q) model selection</li>
+              <li>Residual diagnostics for adequacy checking</li>
+              <li>Forecast evaluation over a 60-day horizon</li>
             </ul>
           </div>
           <div class="project-panel project-section">
-            <h2>Results</h2>
-            <p>The report demonstrates a structured modeling pipeline: transformation to improve stationarity, formal testing, candidate model comparison, residual assessment, and forecast evaluation using a final testing window.</p>
+            <h2>Key Findings</h2>
+            <p>The project demonstrates a full workflow from transformation through model validation. The ARIMA stage focuses on the mean structure, while diagnostics are used to judge whether model assumptions remain plausible before forecasting is interpreted.</p>
+          </div>
+          <div class="project-panel project-section formula-box">
+            <h2>Modeling Lens</h2>
+            <p class="formula">ARIMA(p,d,q)</p>
+            <p class="muted">Used as the main framework for mean-process modeling after transformation and stationarity checks.</p>
+          </div>
+          <div class="project-panel project-section">
+            <h2>Reflection</h2>
+            <p>One limitation of a univariate ARIMA-based analysis is that it ignores external market information and structural events. A natural next step would be to extend the study with volatility modeling or exogenous predictors to better represent financial uncertainty.</p>
           </div>
         </div>
         <aside>
@@ -48,17 +57,18 @@
             <h3>Project Summary</h3>
             <ul>
               <li><strong>Topic:</strong> Financial time series</li>
-              <li><strong>Focus:</strong> Forecasting and diagnostics</li>
-              <li><strong>Tools:</strong> R, statistical modeling</li>
+              <li><strong>Methods:</strong> Log return, ADF, ARIMA, diagnostics</li>
+              <li><strong>Format:</strong> Final report PDF</li>
             </ul>
             <div class="stack-actions">
               <a class="btn btn-primary" href="mediatek-time-series-report.pdf" target="_blank">Download Report</a>
+              <a class="btn btn-secondary" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Profile</a>
             </div>
           </div>
         </aside>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Kevin Cheng-Chieh Zheng</span><span>Statistics Portfolio</span></div></footer>
+  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Kevin (Cheng-Chieh) Zheng</span><span>Statistics Portfolio</span></div></footer>
 </body>
 </html>
