@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediaTek Time Series Project | Kevin Zheng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><div class="brand"><a href="index.html">Kevin Zheng</a></div><nav><a href="index.html">Home</a><a href="cv.html">CV</a><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a><a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub</a></nav></div></header>
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="breadcrumb"><a class="inline-link" href="index.html">Home</a> / Project</p>
+        <p class="eyebrow">Time Series Project</p>
+        <h1>MediaTek Stock Time Series Analysis</h1>
+        <p class="lead">A final report focused on forecasting and model diagnostics using MediaTek stock data and a workflow built around ARIMA-style time series analysis.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container project-layout">
+        <div>
+          <div class="project-panel project-section">
+            <h2>Overview</h2>
+            <p>This project analyzes daily stock price data for MediaTek (2454) with the goal of understanding stationarity, selecting a suitable model, and evaluating forecast performance on a held-out period.</p>
+          </div>
+          <div class="project-panel project-section">
+            <h2>Methods</h2>
+            <ul class="list-tight">
+              <li>Log return transformation</li>
+              <li>ADF unit root testing</li>
+              <li>ARIMA model selection and comparison</li>
+              <li>Residual diagnostics and adequacy checks</li>
+              <li>Out-of-sample forecast evaluation</li>
+            </ul>
+          </div>
+          <div class="project-panel project-section">
+            <h2>Results</h2>
+            <p>The report demonstrates a structured modeling pipeline: transformation to improve stationarity, formal testing, candidate model comparison, residual assessment, and forecast evaluation using a final testing window.</p>
+          </div>
+        </div>
+        <aside>
+          <div class="summary-list">
+            <h3>Project Summary</h3>
+            <ul>
+              <li><strong>Topic:</strong> Financial time series</li>
+              <li><strong>Focus:</strong> Forecasting and diagnostics</li>
+              <li><strong>Tools:</strong> R, statistical modeling</li>
+            </ul>
+            <div class="stack-actions">
+              <a class="btn btn-primary" href="mediatek-time-series-report.pdf" target="_blank">Download Report</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Kevin Cheng-Chieh Zheng</span><span>Statistics Portfolio</span></div></footer>
+</body>
+</html>

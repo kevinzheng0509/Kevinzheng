@@ -4,68 +4,72 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kevin Zheng | Statistics Portfolio</title>
+  <meta name="description" content="Academic portfolio of Kevin Cheng-Chieh Zheng, an NDHU statistics student preparing for graduate study in statistics." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <div class="brand">Kevin Zheng</div>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
+  <header class="site-header"><div class="container nav"><div class="brand"><a href="index.html">Kevin Zheng</a></div><nav><a href="index.html">Home</a><a href="cv.html">CV</a><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a><a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub</a></nav></div></header>
   <main>
     <section class="hero">
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Statistics Portfolio</p>
           <h1>Kevin Cheng-Chieh Zheng</h1>
-          <p class="lead">
-            Statistics student at National Dong Hwa University with interests in
-            regression analysis, mathematical statistics, time series, and experimental design.
-            This site highlights selected coursework, analytical projects, and presentation-based work, with downloadable reports from completed university projects.
-          </p>
+          <p class="lead">Statistics student at National Dong Hwa University and aspiring graduate student in statistics. My interests center on statistical modeling, time series analysis, mathematical statistics, experimental design, and data-driven research communication.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="cv.html">View CV</a>
             <a class="btn btn-secondary" href="mailto:kevinzheng0509@gmail.com">Email Me</a>
           </div>
         </div>
         <div class="hero-card">
           <h3>Academic Focus</h3>
           <ul>
-            <li>Applied Statistics</li>
-            <li>Mathematical Statistics</li>
-            <li>Time Series Analysis</li>
-            <li>Design of Experiments</li>
-            <li>R / Python / LaTeX</li>
+            <li>Regression analysis and inference</li>
+            <li>Likelihood-based statistical theory</li>
+            <li>ARIMA and volatility modeling</li>
+            <li>Design of experiments and ANOVA</li>
+            <li>R, Python, LaTeX, and reproducible reporting</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section id="about" class="section">
-      <div class="container narrow">
-        <p class="section-label">About</p>
-        <h2>Building a graduate-school-ready academic portfolio</h2>
-        <p>
-          I am an undergraduate statistics student at National Dong Hwa University preparing for graduate study in a statistics-related field. My work combines theoretical training with applied data analysis, including model interpretation, statistical inference, forecasting, experimental design, and technical presentation.
-        </p>
-        <p>
-          This portfolio is designed to present my coursework and projects in a clear academic format,
-          with an emphasis on reproducible analysis, mathematical reasoning, and communication.
-        </p>
+      <div class="container two-col">
+        <div>
+          <p class="section-label">About</p>
+          <h2>From coursework to graduate-school-ready portfolio</h2>
+          <p>I am currently completing my undergraduate training in statistics at National Dong Hwa University. My academic work combines theoretical derivation with applied analysis, including model interpretation, inference, forecasting, weighted least squares, and experimental design.</p>
+          <p>This website is organized as an academic portfolio rather than a simple class archive. Each project highlights the statistical question, methods used, and the resulting report or presentation material.</p>
+        </div>
+        <div class="callout">
+          <h3>Current Direction</h3>
+          <p class="muted">Preparing for graduate study in a statistics-related field with an emphasis on analytical rigor, reproducible workflows, and clear technical communication.</p>
+          <div class="stack-actions">
+            <a class="mini-btn" href="cv.html">Academic CV</a>
+            <a class="mini-btn" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Profile</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="section alt">
+    <section class="section alt">
+      <div class="container">
+        <p class="section-label">Snapshot</p>
+        <h2>What this portfolio highlights</h2>
+        <div class="stats-grid">
+          <div class="stat-box"><strong>6+</strong><span class="muted">core statistical areas represented in coursework and presentations</span></div>
+          <div class="stat-box"><strong>2</strong><span class="muted">downloadable final reports currently included on the site</span></div>
+          <div class="stat-box"><strong>R / Python</strong><span class="muted">programming tools used for analysis, modeling, and reporting</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
       <div class="container">
         <p class="section-label">Selected Work</p>
         <h2>Projects and coursework highlights</h2>
@@ -74,113 +78,83 @@
             <span class="tag">Regression Analysis</span>
             <h3>ACT and GPA Prediction</h3>
             <p class="meta">Coursework project</p>
-            <p>
-              Analyzed the relationship between ACT scores and GPA using simple linear regression,
-              confidence intervals, prediction intervals, and hypothesis testing for model interpretation.
-            </p>
+            <p>Analyzed the relationship between ACT scores and GPA using simple linear regression, confidence intervals, prediction intervals, and coefficient interpretation.</p>
+            <div class="stack-actions"><a class="mini-btn" href="project-regression.html">View Details</a></div>
           </article>
 
           <article class="card">
             <span class="tag">Mathematical Statistics</span>
             <h3>Likelihood Ratio Test Derivations</h3>
             <p class="meta">Theory-based assignment</p>
-            <p>
-              Derived and applied likelihood ratio tests under different distributional assumptions,
-              focusing on rigorous statistical reasoning and step-by-step proof structure.
-            </p>
+            <p>Derived likelihood ratio tests under different distributional assumptions, emphasizing proof structure, model assumptions, and asymptotic reasoning.</p>
           </article>
 
           <article class="card">
             <span class="tag">Time Series</span>
             <h3>MediaTek Stock Time Series Analysis</h3>
-            <p class="meta">Final report · ARIMA forecasting</p>
-            <p>
-              Analyzed MediaTek (2454) stock data using log returns, stationarity testing, ARIMA model selection,
-              residual diagnostics, and out-of-sample forecast evaluation.
-            </p>
-            <div class="card-actions">
-              <a class="mini-btn" href="medIATEK-time-series-report.pdf" target="_blank">View PDF</a>
-            </div>
+            <p class="meta">Final report · forecasting and diagnostics</p>
+            <p>Applied log-return transformation, ADF testing, ARIMA model selection, residual diagnostics, and forecast evaluation to MediaTek stock data.</p>
+            <div class="stack-actions"><a class="mini-btn" href="project-timeseries.html">View Details</a><a class="mini-btn" href="mediatek-time-series-report.pdf" target="_blank">Report PDF</a></div>
           </article>
 
           <article class="card">
             <span class="tag">Experimental Design</span>
             <h3>Latin Square and BIBD Presentation</h3>
             <p class="meta">Final presentation · design of experiments</p>
-            <p>
-              Developed presentation materials on Latin square design, Graeco-Latin square design,
-              replicated layouts, and balanced incomplete block design with ANOVA interpretation.
-            </p>
-            <div class="card-actions">
-              <a class="mini-btn" href="latin-square-bibd-presentation.pdf" target="_blank">View PDF</a>
-            </div>
+            <p>Presented Latin square, Graeco-Latin square, replication structures, and balanced incomplete block design with ANOVA-based interpretation.</p>
+            <div class="stack-actions"><a class="mini-btn" href="project-experimental.html">View Details</a><a class="mini-btn" href="latin-square-bibd-presentation.pdf" target="_blank">Slides PDF</a></div>
           </article>
 
           <article class="card">
             <span class="tag">Weighted Least Squares</span>
             <h3>Heteroscedasticity and WLS</h3>
             <p class="meta">Applied statistics problem set</p>
-            <p>
-              Compared OLS and WLS under heteroscedastic error structures and interpreted
-              weighted model estimates in a student time-cost dataset.
-            </p>
+            <p>Compared OLS and WLS under heteroscedastic error structures and interpreted weighted estimates in a student time-cost dataset.</p>
           </article>
 
           <article class="card">
             <span class="tag">Statistical Computing</span>
             <h3>R-Based Analytical Workflows</h3>
             <p class="meta">Programming and reproducibility</p>
-            <p>
-              Built R workflows for simulation, inference, data visualization, and report preparation,
-              with emphasis on reproducible output and well-documented code.
-            </p>
+            <p>Built R workflows for simulation, inference, data visualization, and report preparation with an emphasis on transparent and reproducible analysis.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <section class="section alt">
       <div class="container">
         <p class="section-label">Skills</p>
         <h2>Methods and tools</h2>
         <div class="skill-grid">
           <div class="skill-box">
             <h3>Statistical Topics</h3>
-            <p>Regression, hypothesis testing, likelihood methods, time series, experimental design, statistical inference</p>
+            <p>Regression, hypothesis testing, likelihood methods, time series, experimental design, ANOVA, and statistical inference.</p>
           </div>
           <div class="skill-box">
             <h3>Programming</h3>
-            <p>R, Python, reproducible analysis workflows, basic web portfolio setup</p>
+            <p>R, Python, reproducible analysis workflows, report generation, and portfolio-ready project organization.</p>
           </div>
           <div class="skill-box">
             <h3>Technical Writing</h3>
-            <p>LaTeX, Beamer slides, academic reporting, English presentation preparation</p>
+            <p>LaTeX, Beamer slides, academic report writing, and English presentation preparation for coursework and applications.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section alt">
+    <section id="contact" class="section">
       <div class="container narrow">
         <p class="section-label">Contact</p>
-        <h2>Next items to update</h2>
+        <h2>Professional links</h2>
         <div class="contact-box">
           <p><strong>Email:</strong> <a href="mailto:kevinzheng0509@gmail.com">kevinzheng0509@gmail.com</a></p>
-          <p><strong>GitHub:</strong> Add your GitHub profile link here</p>
-          <p><strong>CV:</strong> Add your CV PDF link here</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">github.com/kevinzheng0509/Kevinzheng</a></p>
+          <p><strong>CV Page:</strong> <a href="cv.html">Open CV</a></p>
         </div>
-        <p class="note">
-          Your email has been updated. The next step is to add your GitHub profile URL and your CV PDF for a complete graduate application portfolio.
-        </p>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-row">
-      <span>© 2026 Kevin Cheng-Chieh Zheng</span>
-      <span>Statistics Portfolio</span>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Kevin Cheng-Chieh Zheng</span><span>Statistics Portfolio</span></div></footer>
 </body>
 </html>

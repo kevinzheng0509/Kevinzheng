@@ -1,23 +1,26 @@
-# Kevin Statistics Portfolio (GitHub Pages Version)
+# Kevin Statistics Portfolio (Version 5)
 
-## Files
-- `index.html` — homepage
-- `style.css` — visual style
+This package is prepared for GitHub Pages deployment.
 
-## Before publishing
-Replace these placeholders in `index.html`:
-- `your-email@example.com`
-- `https://github.com/your-username`
-- `Add your CV PDF link here`
+## Included pages
+- index.html
+- cv.html
+- project-timeseries.html
+- project-experimental.html
+- project-regression.html
+- style.css
 
-## Publish with GitHub Pages
-1. Create a GitHub repository named `yourusername.github.io`
-2. Upload `index.html` and `style.css` to the repository root
-3. In GitHub, enable Pages for the `main` branch root folder
-4. Your site will appear at `https://yourusername.github.io`
+## Included files
+- mediatek-time-series-report.pdf
+- latin-square-bibd-presentation.pdf
 
-## Suggested next upgrades
-- Add a real CV PDF link
-- Add a Projects page with report/PDF links
-- Add GitHub repository links for code-based projects
-- Add your full About section and future graduate interests
+## Deploy to GitHub Pages
+1. Create a repository named `kevinzheng0509.github.io`
+2. Upload all files in this folder to the repository root
+3. Open **Settings → Pages**
+4. Set the source to `Deploy from a branch`
+5. Choose the `main` branch and `/root`
+6. Save and wait for deployment
+
+Your site URL should become:
+`https://kevinzheng0509.github.io`
