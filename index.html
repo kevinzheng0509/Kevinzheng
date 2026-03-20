@@ -1,265 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kevin (Cheng-Chieh) Zheng</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin (Cheng-Chieh) Zheng | Statistics Portfolio</title>
+  <meta name="description" content="Statistics portfolio of Kevin (Cheng-Chieh) Zheng, featuring projects in regression analysis, time series analysis, experimental design, and applied data analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <!-- Header -->
-  <header>
-    <h1>Kevin (Cheng-Chieh) Zheng</h1>
-
-    <p>
-      Statistics Student at National Dong Hwa University<br>
-      Aspiring Graduate Student in Statistics
-    </p>
-
-    <p>
-      Focused on statistical modeling, time series analysis, and data-driven research.
-    </p>
-
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="cv.html">CV</a>
-      <a href="research.html">Research</a>
-    </nav>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">Kevin Zheng</a></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="research.html">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- About -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a senior statistics student at National Dong Hwa University with strong interests in
-      statistical modeling, time series analysis, and applied data science. My academic work focuses
-      on building interpretable models and extracting meaningful insights from real-world data.
-    </p>
-  </section>
-
-  <!-- 🔥 新增 Research Interests -->
-  <section>
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Statistical Modeling</li>
-      <li>Time Series Analysis</li>
-      <li>Regression Analysis</li>
-      <li>Experimental Design</li>
-      <li>Applied Data Analysis</li>
-    </ul>
-  </section>
-
-  <!-- Highlight Project -->
-  <section>
-    <h2>Highlighted Project</h2>
-
-    <h3>Time Series Analysis of MediaTek (2454)</h3>
-
-    <ul>
-      <li>ARIMA model selection and diagnostics</li>
-      <li>60-step forecast evaluation</li>
-      <li>RMSE and MAE performance metrics</li>
-    </ul>
-
-    <p>
-      <a href="project-timeseries.html">View Project</a> |
-      <a href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/time_series_analysis_full.R" target="_blank">
-        GitHub Code
-      </a>
-    </p>
-  </section>
-
-  <!-- Projects -->
-  <section>
-    <h2>Projects</h2>
-
-    <div>
-      <h3>Regression Analysis (ACT vs GPA)</h3>
-      <p>Linear regression modeling and statistical inference.</p>
-      <a href="project-regression.html">View Project</a> |
-      <a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Code</a>
-    </div>
-
-    <div>
-      <h3>Time Series Analysis (MediaTek 2454)</h3>
-      <p>ARIMA modeling and forecasting of stock returns.</p>
-      <a href="project-timeseries.html">View Project</a> |
-      <a href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/time_series_analysis_full.R" target="_blank">
-        GitHub Code
-      </a>
-    </div>
-
-    <div>
-      <h3>Experimental Design (Latin Square & BIBD)</h3>
-      <p>Design of experiments with blocking and ANOVA analysis.</p>
-      <a href="project-experimental.html">View Project</a> |
-      <a href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/latin-square-bibd-presentation.pdf" target="_blank">
-        Project File
-      </a>
-    </div>
-
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>Contact: kevinzheng0509@gmail.com</p>
-    <p>
-      <a href="https://github.com/kevinzheng0509" target="_blank">GitHub</a>
-    </p>
-  </footer>
-
-</body>
-</html>            <li>ARIMA and volatility modeling</li>
-            <li>Design of experiments and ANOVA</li>
-            <li>R, Python, LaTeX, and reproducible reporting</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt highlight-section">
-      <div class="container">
-        <p class="section-label">Highlight Project</p>
-        <div class="highlight-card">
-          <div>
-            <span class="tag">Featured Work</span>
-            <h2>MediaTek Stock Time Series Analysis</h2>
-            <p class="lead compact">A final project applying log-return transformation, stationarity testing, ARIMA model selection, residual diagnostics, and forecast evaluation to a real financial series.</p>
-            <div class="bullet-row">
-              <span>ARIMA modeling</span>
-              <span>ADF testing</span>
-              <span>Forecast evaluation</span>
-              <span>Financial time series</span>
-            </div>
-          </div>
-          <div class="stack-actions">
-            <a class="btn btn-primary" href="project-timeseries.html">View Details</a>
-            <a class="btn btn-secondary" href="mediatek-time-series-report.pdf" target="_blank">Open Report</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container two-col">
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
         <div>
-          <p class="section-label">About Me</p>
-          <h2>Building a graduate-school-ready statistics portfolio</h2>
-          <p>I am a senior statistics student at National Dong Hwa University with strong interests in statistical modeling, time series analysis, and applied data analysis.</p>
-          <p>My academic work aims to connect statistical theory with real-world data problems, including regression modeling, experimental design, likelihood-based inference, and financial time series analysis.</p>
-          <p>I am preparing for graduate study in statistics and use this site as a professional portfolio to present selected coursework, reports, and technical communication.</p>
+          <p class="eyebrow">Statistics Portfolio</p>
+          <h1>Kevin (Cheng-Chieh) Zheng</h1>
+          <p class="hero-subtitle">Statistics Student at National Dong Hwa University</p>
+          <p class="hero-subtitle">Aspiring Graduate Student in Statistics</p>
+          <p class="lead">Focused on statistical modeling, time series analysis, and data-driven research.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="kevin-zheng-cv.pdf" target="_blank">Download CV</a>
+          </div>
         </div>
-        <div class="callout">
-          <h3>Current Direction</h3>
-          <p class="muted">Preparing for graduate study in a statistics-related field with an emphasis on analytical rigor, reproducible workflows, and interpretable modeling.</p>
+        <div class="hero-card">
+          <p class="card-label">Highlight Project</p>
+          <h2>Time Series Analysis of MediaTek (2454)</h2>
+          <ul class="list-tight">
+            <li>ARIMA model selection and diagnostics</li>
+            <li>60-step forecast evaluation</li>
+            <li>RMSE and MAE performance metrics</li>
+          </ul>
           <div class="stack-actions">
-            <a class="mini-btn" href="cv.html">Academic CV</a>
-            <a class="mini-btn" href="kevin-zheng-cv.pdf" target="_blank">Download CV</a>
-            <a class="mini-btn" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Profile</a>
+            <a class="btn btn-primary" href="project-timeseries.html">View Project</a>
+            <a class="btn btn-secondary" href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/time_series_analysis_full.R" target="_blank">GitHub Code</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section alt">
-      <div class="container">
-        <p class="section-label">Snapshot</p>
-        <h2>What this portfolio highlights</h2>
-        <div class="stats-grid">
-          <div class="stat-box"><strong>6+</strong><span class="muted">core statistical areas represented in coursework and presentations</span></div>
-          <div class="stat-box"><strong>3</strong><span class="muted">project detail pages structured around motivation, methods, findings, and reflection</span></div>
-          <div class="stat-box"><strong>R / Python</strong><span class="muted">programming tools used for analysis, modeling, and reproducible reporting</span></div>
-        </div>
+    <section class="section">
+      <div class="container narrow">
+        <p class="eyebrow">About Me</p>
+        <h2>Academic Profile</h2>
+        <p class="lead">I am a senior statistics student at National Dong Hwa University with strong interests in statistical modeling, time series analysis, and applied data analysis. My academic work focuses on connecting theoretical statistics with practical data problems through interpretable models, quantitative reasoning, and clear presentation.</p>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section class="section">
+      <div class="container narrow">
+        <p class="eyebrow">Research Interests</p>
+        <h2>Research Interests</h2>
+        <ul class="list-tight">
+          <li>Statistical Modeling</li>
+          <li>Time Series Analysis</li>
+          <li>Regression Analysis</li>
+          <li>Experimental Design</li>
+          <li>Applied Data Analysis</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
       <div class="container">
-        <p class="section-label">Selected Work</p>
-        <h2>Projects and coursework highlights</h2>
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects</h2>
         <div class="cards">
-          <article class="card featured-outline">
+          <article class="card">
             <span class="tag">Regression Analysis</span>
             <h3>ACT and GPA Prediction</h3>
-            <p class="meta">Coursework project</p>
-            <p>Analyzed the relationship between ACT scores and GPA using simple linear regression, confidence intervals, prediction intervals, and coefficient interpretation.</p>
-            <div class="stack-actions"><a class="mini-btn" href="project-regression.html">View Details</a><a class="mini-btn" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Code</a></div>
-          </article>
-
-          <article class="card">
-            <span class="tag">Mathematical Statistics</span>
-            <h3>Likelihood Ratio Test Derivations</h3>
-            <p class="meta">Theory-based assignment</p>
-            <p>Derived likelihood ratio tests under different distributional assumptions, emphasizing proof structure, model assumptions, and asymptotic reasoning.</p>
+            <p>Linear regression modeling, interval estimation, and hypothesis testing for an interpretable academic data problem.</p>
+            <div class="stack-actions">
+              <a class="btn btn-secondary" href="project-regression.html">View Project</a>
+              <a class="btn btn-secondary" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">GitHub Code</a>
+            </div>
           </article>
 
           <article class="card featured-outline">
             <span class="tag">Time Series</span>
             <h3>MediaTek Stock Time Series Analysis</h3>
-            <p class="meta">Final report · forecasting and diagnostics</p>
-            <p>Applied log-return transformation, ADF testing, ARIMA model selection, residual diagnostics, and forecast evaluation to MediaTek stock data.</p>
-            <div class="stack-actions"><a class="mini-btn" href="project-timeseries.html">View Details</a><a class="mini-btn" href="mediatek-time-series-report.pdf" target="_blank">Report PDF</a><a class="mini-btn" href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/time_series_analysis_full.R" target="_blank">GitHub Code</a></div>
+            <p>Daily log-return modeling with stationarity testing, ARIMA forecasting, diagnostic analysis, and forecast evaluation.</p>
+            <div class="stack-actions">
+              <a class="btn btn-secondary" href="project-timeseries.html">View Project</a>
+              <a class="btn btn-secondary" href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/time_series_analysis_full.R" target="_blank">GitHub Code</a>
+            </div>
           </article>
 
-          <article class="card featured-outline">
+          <article class="card">
             <span class="tag">Experimental Design</span>
-            <h3>Latin Square and BIBD Presentation</h3>
-            <p class="meta">Final presentation · design of experiments</p>
-            <p>Presented Latin square, Graeco-Latin square, replication structures, and balanced incomplete block design with ANOVA-based interpretation.</p>
-            <div class="stack-actions"><a class="mini-btn" href="project-experimental.html">View Details</a><a class="mini-btn" href="latin-square-bibd-presentation.pdf" target="_blank">Slides PDF</a><a class="mini-btn" href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/latin-square-bibd-presentation.pdf" target="_blank">Project File</a></div>
+            <h3>Latin Square and BIBD</h3>
+            <p>Blocking, ANOVA decomposition, and design-based reasoning through Latin Square and balanced incomplete block design examples.</p>
+            <div class="stack-actions">
+              <a class="btn btn-secondary" href="project-experimental.html">View Project</a>
+              <a class="btn btn-secondary" href="https://github.com/kevinzheng0509/Kevinzheng/blob/main/latin-square-bibd-presentation.pdf" target="_blank">Project File</a>
+            </div>
           </article>
 
           <article class="card">
             <span class="tag">Weighted Least Squares</span>
             <h3>Heteroscedasticity and WLS</h3>
-            <p class="meta">Applied statistics problem set</p>
-            <p>Compared OLS and WLS under heteroscedastic error structures and interpreted weighted estimates in a student time-cost dataset.</p>
+            <p>Applied weighted least squares to handle unequal variance and compare model behavior against ordinary least squares.</p>
           </article>
 
           <article class="card">
-            <span class="tag">Statistical Computing</span>
-            <h3>R-Based Analytical Workflows</h3>
-            <p class="meta">Programming and reproducibility</p>
-            <p>Built R workflows for simulation, inference, data visualization, and report preparation with an emphasis on transparent and reproducible analysis.</p>
+            <span class="tag">Mathematical Statistics</span>
+            <h3>Likelihood Ratio Test Derivations</h3>
+            <p>Theoretical derivations that strengthened my foundation in inference, hypothesis testing, and the logic of statistical decision-making.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">R Workflows</span>
+            <h3>Analytical Work in R</h3>
+            <p>Course-based statistical analyses implemented in R, including modeling, diagnostics, table generation, and reproducible reporting.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section alt">
-      <div class="container">
-        <p class="section-label">Skills</p>
-        <h2>Methods and tools</h2>
-        <div class="skill-grid">
-          <div class="skill-box">
-            <h3>Statistical Topics</h3>
-            <p>Regression, hypothesis testing, likelihood methods, time series, experimental design, ANOVA, weighted least squares, and statistical inference.</p>
-          </div>
-          <div class="skill-box">
-            <h3>Programming</h3>
-            <p>R, Python, reproducible analysis workflows, report generation, and project organization for academic portfolios.</p>
-          </div>
-          <div class="skill-box">
-            <h3>Technical Writing</h3>
-            <p>LaTeX, Beamer slides, academic report writing, and English presentation preparation for coursework and graduate applications.</p>
-          </div>
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Methods and Tools</h2>
+          <ul class="list-tight">
+            <li><strong>Programming:</strong> R, Python</li>
+            <li><strong>Statistical Methods:</strong> Regression, hypothesis testing, LRT, ANOVA, ARIMA, GARCH, WLS</li>
+            <li><strong>Tools:</strong> LaTeX, Git, GitHub</li>
+          </ul>
+        </div>
+        <div class="summary-list">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a class="inline-link" href="kevin-zheng-cv.pdf" target="_blank">Download CV</a></li>
+            <li><a class="inline-link" href="research.html">Read Research Statement</a></li>
+            <li><a class="inline-link" href="project-timeseries.html">View Highlight Project</a></li>
+            <li><a class="inline-link" href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">Open GitHub Repository</a></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section class="section" id="contact">
       <div class="container narrow">
-        <p class="section-label">Contact</p>
-        <h2>Professional links</h2>
-        <div class="contact-box">
-          <p><strong>Email:</strong> <a href="mailto:kevinzheng0509@gmail.com">kevinzheng0509@gmail.com</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/kevinzheng0509/Kevinzheng" target="_blank">github.com/kevinzheng0509/Kevinzheng</a></p>
-          <p><strong>CV:</strong> <a href="cv.html">Open CV page</a> · <a href="kevin-zheng-cv.pdf" target="_blank">Download PDF</a></p>
+        <p class="eyebrow">Contact</p>
+        <h2>Get in Touch</h2>
+        <p class="lead">For academic inquiries, portfolio review, or graduate application related questions, feel free to contact me.</p>
+        <div class="stack-actions">
+          <a class="btn btn-primary" href="mailto:kevinzheng0509@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="https://github.com/kevinzheng0509" target="_blank">GitHub Profile</a>
         </div>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Kevin (Cheng-Chieh) Zheng</span><span>Statistics Portfolio</span></div></footer>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© 2026 Kevin (Cheng-Chieh) Zheng</span>
+      <span>Statistics Portfolio</span>
+    </div>
+  </footer>
 </body>
 </html>
