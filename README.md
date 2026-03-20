@@ -32,3 +32,10 @@ This package is prepared for GitHub Pages deployment.
 
 Your site URL should become:
 `https://kevinzheng0509.github.io`
+
+
+## New in v9
+- Added research statement page
+- Integrated full MediaTek time series R script
+- Updated time series project page with visualization section and code block
+- Ready to display `log_return.png`, `acf_pacf_combined.png`, and `residual.png` after you export them from R
