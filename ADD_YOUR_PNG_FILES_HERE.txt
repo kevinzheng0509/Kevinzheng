@@ -1,0 +1,4 @@
+Add these files to show images on the time series project page:
+- log_return.png
+- acf_pacf_combined.png
+- residual.png

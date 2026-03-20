@@ -44,7 +44,7 @@
 
           <div class="project-panel project-section">
             <h2>Key Findings</h2>
-            <p>The workflow shows how a stock-price series can be transformed into a more stable return series for modeling. The project also demonstrates a full train-test forecasting setup, so the report is not only descriptive but also evaluative. In addition to model fitting, it generates tables and figures that can be reused in reports and presentations.</p>
+            <p>The daily log-return series becomes more suitable for modeling after transformation, and the ARIMA framework is then used to produce 60-step forecasts on a held-out test period. The diagnostic process shows how the fitted model can be evaluated through residual behavior and forecast error measures such as RMSE and MAE. Together, these results turn the project from a descriptive stock analysis into a complete statistical forecasting workflow.</p>
           </div>
 
           <div class="project-panel project-section formula-box">
@@ -56,7 +56,7 @@
 
           <div class="project-panel project-section">
             <h2>Visualization</h2>
-            <p class="muted">This page is ready for your exported figures. After running the R script, place the generated PNG files in the same folder as this website to display them here automatically.</p>
+            <p class="muted">The return plot shows how daily log returns fluctuate around zero rather than following the strong trend visible in raw prices. The ACF and PACF plots are used to inspect short-run dependence in the transformed series, while the residual plot helps assess whether the fitted ARIMA model leaves meaningful structure unexplained.</p>
             <div class="cards image-grid">
               <div class="card">
                 <h3>Log Return Plot</h3>
